@@ -10,4 +10,4 @@ GET http://localhost:8080/add-product?id=2&currency=USD&name=item2&price=3
 Accept: application/json
 
 ###
-GET http://localhost:8080/get-products-for-user?id=1&currency=RUB
+GET http://localhost:8080/get-products-for-user?id=1
