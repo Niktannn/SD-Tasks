@@ -1,0 +1,13 @@
+GET http://localhost:8080/register-user?id=1&currency=EUR&name=Jhon&login=hacker55
+Accept: application/json
+
+###
+GET http://localhost:8080/add-product?id=1&currency=EUR&name=item1&price=2
+Accept: application/json
+
+###
+GET http://localhost:8080/add-product?id=2&currency=USD&name=item2&price=3
+Accept: application/json
+
+###
+GET http://localhost:8080/get-products-for-user?id=1&currency=RUB
